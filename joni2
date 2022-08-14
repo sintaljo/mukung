@@ -1,0 +1,12 @@
+var siji = &#039;nobita&#039;;var loro = &#039;readytocart-20&#039;;var telu = &#039;blegur&#039;;var papat = &#039;https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgT5KT9gXhsad5C5DJcD7oDpwYWl7DF_wRr3JuPNRiySvC8TAGr2FRAYF25vWpXVmQY_HZtVAkSwESdNJO7T8CQNqdCphSdQ3XpkJtgJELmR8yx9otWH0OnISlPLK_dznSULdTDiys806gUAnYv4g2dwTJx-eBTbRyBJYiI3c9UeYN_yYWug-PHgc5Z/s640/jamazon.png&#039;
+function updateme()
+{
+    var text = document.getElementsByTagName(&#039;body&#039;)[0].innerHTML;
+    text = replaceAll(text,siji,loro);text = replaceAll(text,telu,papat);
+    document.getElementsByTagName(&#039;body&#039;)[0].innerHTML = text;
+}
+function replaceAll(txt, replace, with_this) {
+  return txt.replace(new RegExp(replace, &#039;g&#039;),with_this);
+
+}
+setTimeout(&#039;updateme()&#039;,100);
